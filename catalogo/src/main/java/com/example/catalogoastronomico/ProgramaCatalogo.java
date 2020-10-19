@@ -1,3 +1,4 @@
+
 package com.example.catalogoastronomico;
 
 import java.util.Locale;
@@ -150,6 +151,6 @@ public class ProgramaCatalogo {
             }
             System.out.println("Pulsa cualquier letra para continuar o elige salir (s) >");
             respuesta = teclado.next().toLowerCase();
-        };
+        }
     }
 }
